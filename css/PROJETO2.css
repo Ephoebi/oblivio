@@ -1,0 +1,272 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: 2px solid rgb(255, 0, 0);
+    }
+
+
+   body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+   .container {
+    display: flex;
+    flex-direction: column;
+    width: 98.9vw;
+    height: 3500px;
+    color: rgb(255, 174, 0);
+   }
+
+   #home{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    color: rgb(255, 174, 0);
+   }
+    #historia{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    color: rgb(255, 174, 0);
+   }
+    #contato{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    color: rgb(255, 174, 0);
+   }
+   #servicos{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    color: rgb(255, 174, 0);
+   }
+   #produtos{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    color: rgb(255, 174, 0);
+   }
+
+   /*HOME*/
+   #imgFundo{
+    width: 9000px;
+    height: 800px;
+    object-fit: cover;
+    margin-top: -400px;
+    margin-top: 20px;
+   }
+
+   #menu {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    flex-direction: row;
+    color: rgb(255, 187, 0);
+   }
+
+   #imgMenu{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+     color: rgb(255, 230, 0);
+   }
+
+   a{
+    padding-top: 10px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+   }
+
+   li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+   }
+
+   #mensagem{
+    font-size: 40px;
+    letter-spacing: 2px;
+    width: 600px;
+    height: 500px;
+    color: rgb(42, 34, 0);
+    margin: 150px 0 0 50px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+   }
+
+   #pee{
+    color: rgb(59, 46, 3);
+    display: flex;
+    position: absolute;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 650px 0 0 800px;
+   }
+
+   /*HISTÓRIA*/
+   #historia{
+    background: #36181E;
+background: linear-gradient(180deg, rgba(54, 24, 30, 1) 0%, rgba(82, 39, 48, 1) 50%);
+   }
+
+   #imgHit{
+    margin-left: 250px;
+    opacity: 0.2;
+   }
+
+    #imgFundo1{
+    width: 1000px;
+    height: 650px;
+    margin-left: 230px;
+    margin-top: -20px;
+    opacity: 60%;
+     }
+
+#texto3{
+    font-size: 15px;
+    color: aliceblue;
+    background-color: #261317;
+    width: 200px;
+    height: 50px;
+    margin-top: 85px;
+    margin-left: 100px;
+    padding-left: 50px;
+    padding-top: 5px;
+    position: absolute;
+    opacity: 80%;
+    }
+   
+     #texto4{
+    font-size: 30px;
+    color: aliceblue;
+    background-color: #483136;
+    opacity: 80%;
+    width: 1400px;
+    height: 170px;
+    margin-top: 145px;
+    margin-left: 60px;
+    padding-left: 50px;
+    padding-top: 1px;
+    position: absolute;
+    }
+
+    #texto5{
+    font-size: 15px;
+    color: aliceblue;
+    background-color: #261317;
+    width: 200px;
+    height: 50px;
+    margin-top: 330px;
+    margin-left: 1200px;
+    padding-left: 30px;
+    padding-top: 5px;
+    position: absolute;
+    opacity: 80%;
+    }
+
+
+    #img{
+    width: 300px;
+    height: 350px;
+    margin-left: 150px ;
+    margin-top: 320px ;
+    position: absolute;
+    }
+
+
+    #texto6{
+    font-size: 30px;
+    color: aliceblue;
+    background-color: #483136;
+    opacity: 80%;
+    width: 950px;
+    height: 170px;
+    margin-left: 500px;
+    margin-top: 400px;
+    padding-top: 10px;
+    padding-left: 20px;
+    position: absolute;
+    }
+
+    /*SERVIÇOS*/
+   #servicos{
+   background: #36181E;
+background: linear-gradient(180deg, rgba(54, 24, 30, 1) 0%, rgba(82, 39, 48, 1) 50%);
+   
+   }
+
+   /*Produtos*/
+   #produtos{
+    background: #36181E;
+background: linear-gradient(180deg, rgba(54, 24, 30, 1) 0%, rgba(82, 39, 48, 1) 50%);
+   }
+
+   /*Contato*/
+   #contato{
+    background: #36181E;
+background: linear-gradient(180deg, rgba(54, 24, 30, 1) 0%, rgba(82, 39, 48, 1) 50%);
+   }
+   #texto99{
+    font-size: 30px;
+    color: aliceblue;
+    opacity: 80%;
+    width: 950px;
+    height: 170px;
+    margin-left: 350px;
+    margin-top: 90px;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: absolute;
+   }
+    #texto44{
+    font-size: 30px;
+    color: aliceblue;
+    opacity: 80%;
+    width: 950px;
+    height: 170px;
+    margin-left: 600px;
+    margin-top: 600px;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: absolute;
+   }
+   #img65{
+   width: 300px;
+    height: 400px;
+    margin-left: 650px;
+    margin-top: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+   }
+      #texto88{
+    font-size: 30px;
+    color: aliceblue;
+    opacity: 80%;
+    width: 950px;
+    height: 170px;
+    margin-left: 500px;
+    margin-top: 90px;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: absolute
+      }
+       #img77{
+   width: 450px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+   }
+
